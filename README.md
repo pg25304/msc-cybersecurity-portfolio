@@ -1,2 +1,80 @@
-# msc-cybersecurity-portfolio
-This page showcases my academic projects, skills, certifications, and experiences related to cybersecurity.
+\# MSc Cybersecurity Portfolio
+
+
+
+This repository contains coursework, projects, and practical exercises completed as part of my MSc in Cybersecurity. It includes Python scripts, Jupyter notebooks, and structured examples that demonstrate key concepts in cybersecurity, programming, and software design.
+
+
+
+\## 📁 Repository Structure
+
+msc-cybersecurity-portfolio/ ├── pycharm-project/         # Python scripts developed in PyCharm │   ├── main.py              # Main application logic │   └── other\_script.py      # Supporting modules or utilities ├── jupyter-notebooks/       # Jupyter notebooks for analysis, demos, or experiments │   └── example\_notebook.ipynb ├── .gitignore               # Excludes PyCharm and temporary files from version control └── README.md                # This fil
+
+
+
+
+
+\## 🧠 Topics Covered
+
+
+
+\- Python programming fundamentals
+
+\- Object-Oriented Programming (OOP)
+
+\- SOLID principles and clean code design
+
+\- Cryptography and secure coding practices
+
+\- Network security simulations
+
+\- Jupyter-based data analysis
+
+
+
+\## 🚀 How to Run
+
+
+
+1\. Clone the repository:
+
+&nbsp;  ```bash
+
+&nbsp;  git clone https://github.com/pg25304/msc-cybersecurity-portfolio.git
+
+
+
+2\. Navigate into the project:
+
+
+
+cd msc-cybersecurity-portfolio
+
+
+
+3\. Open in your preferred IDE (e.g., PyCharm or JupyterLab)
+
+📌 Notes- .idea/ and other IDE-specific files are excluded via .gitignore
+
+\- Code is organized for clarity and modularity
+
+\- Each notebook or script includes inline comments for educational use
+
+📫 Contact For questions or collaboration, feel free to reach out via \[paymanghorba@gmail.com] or connect on LinkedIn:www.linkedin.com/in/paymanghorbani
+
+
+
+---
+
+
+
+Would you like me to tailor this further with your actual GitHub username, email, or specific project titles? I can also help you write short descriptions for each `.py` or `.ipynb` file if you’d like to annotate them for academic or professional presentation.
+
+
+
+
+
+
+
+
+
