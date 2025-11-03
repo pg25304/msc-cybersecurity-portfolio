@@ -2,17 +2,13 @@
 
 ## ⚠️ Usage Notice
 # Copyright © 2025 Payman Ghorbani 
-# All rights reserved. Do not reuse or distribute without permission.
+# All rights reserved. Please Do not reuse or distribute without permission.
 
 This repository is publicly viewable for educational purposes only.  
 You may clone this repository for personal, educational use only.
-Please do not reuse or redistribute all the contents of this repository,  without permission. 
-
-Please **do not download, copy, or reuse any ** content of  Cyber Security folder without prior written permission from the author.
+Please do not reuse or redistribute any contents of this repository,  without permission. 
 
 To request permission, contact me at: paymanghorba@gmail.com
-
-
 
 This repository contains coursework, projects, and practical exercises completed as part of my MSc in Cybersecurity. It includes Python scripts, Jupyter notebooks, and structured examples that demonstrate key concepts in cybersecurity, programming, and software design.
 
