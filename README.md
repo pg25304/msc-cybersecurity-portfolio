@@ -1,10 +1,12 @@
 \# MSc Cybersecurity Portfolio
 
 ## ⚠️ Usage Notice
+# Copyright © 2025 Payman Ghorbani 
+# All rights reserved. Do not reuse or distribute without permission.
 
 This repository is publicly viewable for educational purposes only.  
 You may clone this repository for personal, educational use only.
-Please do not reuse or redistribute the code,  without permission. 
+Please do not reuse or redistribute all the contents of this repository,  without permission. 
 
 Please **do not download, copy, or reuse any ** content of  Cyber Security folder without prior written permission from the author.
 
@@ -18,7 +20,7 @@ This repository contains coursework, projects, and practical exercises completed
 
 \## 📁 Repository Structure
 
-msc-cybersecurity-portfolio/ ├── pycharm-project/         # Python scripts developed in PyCharm │   ├── main.py              # Main application logic │   └── other\_script.py      # Supporting modules or utilities ├── jupyter-notebooks/       # Jupyter notebooks for analysis, demos, or experiments │   └── example\_notebook.ipynb ├── .gitignore               # Excludes PyCharm and temporary files from version control └── README.md                # This fil
+msc-cybersecurity-portfolio/ |-- CyberSecurity # MSc Modules ├── pycharm-project/         # Python scripts developed in PyCharm │   ├── main.py              # Main application logic │   └── other\_script.py      # Supporting modules or utilities ├── jupyter-notebooks/       # Jupyter notebooks for analysis, demos, or experiments │   └── example\_notebook.ipynb ├── .gitignore               # Excludes PyCharm and temporary files from version control └── README.md                # This fil
 
 
 
@@ -39,6 +41,10 @@ msc-cybersecurity-portfolio/ ├── pycharm-project/         # Python scripts
 \- Network security simulations
 
 \- Jupyter-based data analysis
+
+\- MSc CyberSecurity Modules' assignments
+
+
 
 
 
