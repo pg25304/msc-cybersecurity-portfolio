@@ -6,7 +6,7 @@
 
 This repository is publicly viewable for educational purposes only.  
 You may clone this repository for personal, educational use only.
-Please do not reuse or redistribute any contents of this repository,  without permission. 
+
 
 To request permission, contact me at: paymanghorba@gmail.com
 
