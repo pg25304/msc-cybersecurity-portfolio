@@ -1,5 +1,12 @@
 \# MSc Cybersecurity Portfolio
 
+## ⚠️ Usage Notice
+
+This repository is publicly viewable for educational purposes only.  
+Please **do not download, copy, or reuse any code** without prior written permission from the author.
+
+To request permission, contact me at: paymanghorba@gmail.com
+
 
 
 This repository contains coursework, projects, and practical exercises completed as part of my MSc in Cybersecurity. It includes Python scripts, Jupyter notebooks, and structured examples that demonstrate key concepts in cybersecurity, programming, and software design.
