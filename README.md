@@ -3,7 +3,10 @@
 ## ⚠️ Usage Notice
 
 This repository is publicly viewable for educational purposes only.  
-Please **do not download, copy, or reuse any code** without prior written permission from the author.
+You may clone this repository for personal, educational use only.
+Please do not reuse or redistribute the code,  without permission. 
+
+Please **do not download, copy, or reuse any ** content of  Cyber Security folder without prior written permission from the author.
 
 To request permission, contact me at: paymanghorba@gmail.com
 
