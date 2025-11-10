@@ -19,11 +19,28 @@ class Bike(Vehicle):
     def drive(self):
         return "Riding a bike"
 
+class VehicleFactory(ABC):
+    @abstractmethod
+    def create_vehicle(self):
+        pass
+
+class CarFactory(VehicleFactory):
+    def create_vehicle(self):
+        return Car()
+
+class BikeFactory(VehicleFactory):
+    def create_vehicle(self):
+        return Bike()
+
 #client code/test
 car = Car()
 print(car.drive())
 bike = Bike()
 print(bike.drive())
 # v=Vehicle() Error: Can't instantiate abstract class
-
+#Using factories to create vehicles
+print("Factory (Factory Method / Simple Factory) creates one product type and hides concrete class selection.")
+factory = CarFactory()
+vehicle = factory.create_vehicle()
+print(vehicle.drive())
 

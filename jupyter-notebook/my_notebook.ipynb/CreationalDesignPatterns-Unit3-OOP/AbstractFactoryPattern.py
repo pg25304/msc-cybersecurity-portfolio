@@ -33,6 +33,7 @@ class ModernFurnitureFactory(FurnitureFactory):
 
 
 #Client code
+print("Abstract Factory creates families of related products (multiple product types that belong together)")
 factory = ModernFurnitureFactory()
 chair = factory.create_chair()
 sofa = factory.create_sofa()
