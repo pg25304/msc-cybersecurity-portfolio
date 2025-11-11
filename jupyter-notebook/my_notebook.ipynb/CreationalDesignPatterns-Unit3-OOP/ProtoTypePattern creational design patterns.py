@@ -4,18 +4,20 @@ Concept: this is the Prototype design pattern — provide a way to duplicate obj
 instead of constructing from scratch."""
 import copy
 
-from dask.graph_manipulation import clone
 
 
-class prototype:
+
+class Prototype:
     #a method that, when called on an instance, returns a deep copy of that instance.
     def clone(self):
-        #copy.deepcopy(self) creates a new object that is a recursive (deep) copy of self.
-        # That means nested mutable attributes are duplicated too, not shared.
+        """#copy.deepcopy(self) creates a new object that is a recursive (deep) copy of self.
+        That means nested mutable attributes are duplicated too, not shared.
+        copy.deepcopy(self) therefore calls the deepcopy
+        function defined in that standard library module."""
         return copy.deepcopy(self)
 #defines Car as a subclass of Prototype. Car inherits methods from Prototype, including clone.
-class Car(prototype):
-    #constructor (initialiser) that runs when you create a Car instance.
+class Car(Prototype):
+    #constructor (initialiser) that runs when you create a Car instance."""
     def __init__(self, model, colour):
         #set instance attributes model and color.
         self.model = model
@@ -35,6 +37,8 @@ car1 = Car("Tesla Model S", "Red")
 #Because clone() uses copy.deepcopy(self), car2 becomes a new,
 # separate Car instance with the same attribute values as car1.
 """Important: car2 is a distinct object (not the same identity as car1)."""
+#Python automatically passes car1 as the first argument to clone.
+# Inside the method self refers to car1.
 car2 = car1.clone()
 #Modifies the color attribute on the cloned object car2 only.
 #Because car2 is a separate object (deep-copied), changing car2.color does not affect car1.color.
