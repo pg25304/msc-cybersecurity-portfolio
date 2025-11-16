@@ -76,11 +76,7 @@ cd msc-cybersecurity-portfolio
 
 
 
----
 
-
-
-Would you like me to tailor this further with your actual GitHub username, email, or specific project titles? I can also help you write short descriptions for each `.py` or `.ipynb` file if you’d like to annotate them for academic or professional presentation.
 
 
 
