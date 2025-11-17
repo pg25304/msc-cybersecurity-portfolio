@@ -3,7 +3,7 @@
 #usage: managing shared resources like database, logging, or configuration setting.
 #It gives everyone one shared object, through a central access point, without letting them create duplicates — even by accident.
 
-"""class Singleton:
+class Singleton:
     # This is a class-level variable that will store the one and only
     # instance of Singleton.Right now, it’s empty (None)
     _instance = None
@@ -20,7 +20,7 @@
 #client code
 s1 = Singleton()
 s2 = Singleton()
-print(s1 is s2)"""
+print(s1 is s2)
 
 
 

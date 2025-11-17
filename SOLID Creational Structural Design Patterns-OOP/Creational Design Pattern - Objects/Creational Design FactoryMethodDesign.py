@@ -43,4 +43,7 @@ print("Factory (Factory Method / Simple Factory) creates one product type and hi
 factory = CarFactory()
 vehicle = factory.create_vehicle()
 print(vehicle.drive())
-
+print("############################################")
+factory = BikeFactory()
+vehicle = factory.create_vehicle()
+print(vehicle.drive())
