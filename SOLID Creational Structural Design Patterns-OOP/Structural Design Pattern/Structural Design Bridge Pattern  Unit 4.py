@@ -1,7 +1,8 @@
 #Bridge Pattern program based on structural design
 #abstract Device class
 from abc import ABC, abstractmethod
-
+#Abstract interface for controlling devices
+#Stores a reference to a Device (the bridge link)
 class Device(ABC):
     @abstractmethod
     def turn_on(self):
@@ -9,6 +10,7 @@ class Device(ABC):
     @abstractmethod
     def turn_off(self):
         pass
+    
 #concrete device classes
 class TV(Device):
    def turn_on(self):
@@ -24,6 +26,8 @@ class Radio(Device):
 
 
 #abstract RemoteControl class
+#Abstract interface for controlling devices
+#Stores a reference to a Device (the bridge link)
 class RemoteControl(ABC):
     def __init__(self, device: Device):
         self.device = device
@@ -34,6 +38,8 @@ class RemoteControl(ABC):
     def off(self):
         pass
 #concrete RemoteControl classes
+#The RemoteControl holds a reference to Device and delegates calls to it. This is the bridge
+# that connects the two hierarchies.
 class BasicRemoteControl(RemoteControl):
     def on(self):
         self.device.turn_on()
