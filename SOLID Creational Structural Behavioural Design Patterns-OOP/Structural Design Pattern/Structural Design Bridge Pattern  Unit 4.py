@@ -1,8 +1,7 @@
 #Bridge Pattern program based on structural design
 #abstract Device class
 from abc import ABC, abstractmethod
-#Abstract interface for controlling devices
-#Stores a reference to a Device (the bridge link)
+
 class Device(ABC):
     @abstractmethod
     def turn_on(self):

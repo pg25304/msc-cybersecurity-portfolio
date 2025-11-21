@@ -17,6 +17,8 @@ class FileSystemComponent(ABC):
     def get_child_count(self):
         pass
 #Step 2: Create classes for files and folders that implement the interface.
+#The Interface (FileSystemComponent)
+#Both File and Folder share the same interface.
 class File(FileSystemComponent):
     def __init__(self, name, size):
         self.name = name
@@ -31,11 +33,15 @@ class File(FileSystemComponent):
         return 0
 #Step 3: Create a Folder class that can contain other FileSystemComponents (both Files and Folders).
 class Folder(FileSystemComponent):
+    #The Folder class storing child components
+    #This is the heart of the Composite Pattern:
     def __init__(self, name):
         self.name = name
         self.children = []
     def get_name(self):
         return self.name
+    #Composite operations applied recursively
+    #For example, calculating folder size:
     def get_size(self):
         total_size = 0
         for child in self.children:
@@ -43,6 +49,8 @@ class Folder(FileSystemComponent):
         return total_size
     def get_child_count(self):
         return len(self.children)
+    #The moment a class contains a list of objects that implement the same
+    # interface as itself, you have the Composite Pattern.
     def add_child(self, child):
         self.children.append(child)
 #Demonstrate how to use the composite structure with an example.
