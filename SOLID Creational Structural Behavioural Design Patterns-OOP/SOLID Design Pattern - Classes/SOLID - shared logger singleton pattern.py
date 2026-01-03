@@ -8,6 +8,8 @@ class Logger:
 
     def __new__(cls):
         # This is like checking if the logbook already exists before printing a new one.
+        #cls._instance means "the shared variable on the class"
+
         if cls._instance is None:
             print("Creating the Logger instance")
             cls._instance = super(Logger, cls).__new__(cls)
