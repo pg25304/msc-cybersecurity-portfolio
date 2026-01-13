@@ -12,6 +12,16 @@ To request permission, contact me at: paymanghorba@gmail.com
 
 This repository contains coursework, projects, and practical exercises completed as part of my MSc in Cybersecurity. It includes Python scripts, Jupyter notebooks, and structured examples that demonstrate key concepts in cybersecurity, programming, and software design.
 
+## 📊 Academic E-Portfolio
+
+**[View Complete Academic E-Portfolio Report](./Academic-E-Portfolio-Report.md)**
+
+A comprehensive academic e-portfolio documenting my learning journey, achievements, and professional development throughout the MSc Cybersecurity programme. The report includes:
+- Detailed module summaries and coursework analysis
+- Technical skills development and project showcases
+- Professional reflections and learning outcomes
+- Future goals and career aspirations
+
 
 
 \## 📁 Repository Structure
